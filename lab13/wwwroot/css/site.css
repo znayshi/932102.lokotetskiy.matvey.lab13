@@ -1,0 +1,33 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.input-validation-error {
+    border: 2px solid #f00;
+    background-color: #fee;
+}
+input[type="number"] {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="submit"][value="finish"] {
+    background-color: blue;
+    color: white;
+}
+
